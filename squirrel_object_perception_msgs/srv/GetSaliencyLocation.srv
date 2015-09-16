@@ -1,4 +1,4 @@
-# Get saliency map location
+# Get saliency map based on location in the image
 # author: Ekaterina Potapova, potapova@acin.tuwien.ac.at
 
 # the full view organized point cloud

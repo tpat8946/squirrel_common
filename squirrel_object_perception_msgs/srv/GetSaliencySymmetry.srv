@@ -1,4 +1,4 @@
-# Get saliency map SYM
+# Get saliency map based on 2D image symmetry
 # author: Ekaterina Potapova, potapova@acin.tuwien.ac.at
 
 # the full view organized point cloud
