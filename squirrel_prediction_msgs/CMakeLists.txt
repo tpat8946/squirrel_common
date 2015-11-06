@@ -18,8 +18,6 @@ add_service_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
    DEPENDENCIES
-   diagnostic_msgs
-   sensor_msgs
    std_msgs
 )
 
@@ -28,8 +26,6 @@ catkin_package(
    CATKIN_DEPENDS 
 	message_runtime 
 	std_msgs 
-	sensor_msgs
-	diagnostic_msgs
 )
 
 ###########
