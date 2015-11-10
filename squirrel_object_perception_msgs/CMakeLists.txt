@@ -74,6 +74,10 @@ add_service_files(
   GetSaliencySurfaceOrientation.srv
   StartObjectTracking.srv
   StopObjectTracking.srv
+  LookAtImagePosition.srv
+  LookAtPosition.srv
+  FixatePosition.srv
+  ClearFixation.srv
 )
 
 ## Generate actions in the 'action' folder
