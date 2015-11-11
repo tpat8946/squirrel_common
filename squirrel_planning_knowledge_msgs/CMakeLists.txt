@@ -15,6 +15,7 @@ add_service_files(
   AddObjectService.srv
   UpdateObjectService.srv
   RemoveObjectService.srv
+  TaskPoseService.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
