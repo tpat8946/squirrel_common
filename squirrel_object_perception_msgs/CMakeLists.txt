@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs 
   sensor_msgs
   geometry_msgs
+  octomap_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -52,6 +53,7 @@ add_message_files(
   BBox.msg
   Classification.msg
   Saliency.msg
+  ViewpointEntropy.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -74,6 +76,14 @@ add_service_files(
   GetSaliencySurfaceOrientation.srv
   StartObjectTracking.srv
   StopObjectTracking.srv
+  LookAtImagePosition.srv
+  LookAtPosition.srv
+  FixatePosition.srv
+  ClearFixation.srv
+  EntropyMap.srv
+  EntropyMapViz.srv
+  CoveragePlan.srv
+  CoveragePlanFile.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -89,6 +99,8 @@ generate_messages(
   std_msgs
   sensor_msgs
   actionlib_msgs
+  geometry_msgs
+  octomap_msgs
 )
 
 ###################################
@@ -108,6 +120,8 @@ catkin_package(
     std_msgs 
     sensor_msgs
     actionlib_msgs
+    geometry_msgs
+    octomap_msgs
 #  DEPENDS system_lib
 )
 
