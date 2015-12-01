@@ -12,6 +12,11 @@ Please add the following line to the file /etc/apt/sources.list:
 deb http://doc.openrobotino.org/download/packages/amd64 ./
 ```
 
+Dependencies
+============
+
+sudo apt-get install mongodb flex ros-indigo-mongodb-store liballegro5-dev
+
 Action template
 ===============
 
