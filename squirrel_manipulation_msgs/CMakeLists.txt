@@ -24,6 +24,7 @@ find_package(catkin REQUIRED COMPONENTS
    PickUp.action
    Push.action
    PutDown.action
+   Smash.action
  )
 
 ## Generate added messages and services with any dependencies listed here
