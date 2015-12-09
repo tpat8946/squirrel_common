@@ -1,4 +1,5 @@
 <package>
+
   <name>squirrel_common</name>
   <version>0.0.1</version>
   <description>Definitions for mesages, services and actions. Startup packages for the robots</description>
@@ -13,9 +14,9 @@
   <run_depend>squirrel_rgbd_mapping_msgs</run_depend>
   <run_depend>squirrel_person_tracker_msgs</run_depend>
   <run_depend>squirrel_prediction_msgs</run_depend>
-  
 
   <export>
 	<metapackage/>
   </export>
+
 </package>
