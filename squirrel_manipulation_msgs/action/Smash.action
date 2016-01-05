@@ -1,8 +1,8 @@
-# Manipulation action messages: PUSH
+# Manipulation action messages: SMASH
 
 # goal definition
-string object_id
 geometry_msgs/Pose pose
+std_msgs/Float64 radius
 ---
 # result definition
 string result_status
