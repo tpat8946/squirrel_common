@@ -7,6 +7,9 @@ Changelog for package squirrel_object_perception_msgs
 * cleanup of CMakeLists.txt and package.xml. Make sure dependencies are in there as well.
 * Contributors: Markus Bajones
 
+0.0.4 (2016-01-12)
+------------------
+
 0.1.0 (2015-12-16 15:01:14 +0100)
 ---------------------------------
 
