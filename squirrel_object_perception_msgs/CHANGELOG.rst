@@ -2,6 +2,11 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* include folder not found
+* Contributors: ipa-nhg
+
 0.0.3 (2016-01-13)
 ------------------
 
