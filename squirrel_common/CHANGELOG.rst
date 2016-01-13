@@ -2,6 +2,9 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.2 (2016-01-13)
 ------------------
 
