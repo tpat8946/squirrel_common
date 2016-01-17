@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
-  <name>squirrel_nav_msgs</name>
+  <name>squirrel_navigation_msgs</name>
   <version>0.1.0</version>
   <description>
-    Messages for squirrel_nav package
+    Messages for squirrel_navigation package
   </description>
 
   <maintainer email="boniardi@informatik.uni-freiburg.de">Federico Boniardi</maintainer>
