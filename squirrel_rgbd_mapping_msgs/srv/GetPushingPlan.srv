@@ -4,3 +4,4 @@ geometry_msgs/Polygon object
 ---
 nav_msgs/Path plan
 float64 clearance
+# other info needed?
