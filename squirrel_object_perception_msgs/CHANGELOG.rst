@@ -2,19 +2,13 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.3 (2016-01-12)
+0.0.2 (2016-01-13)
 ------------------
 * cleanup of CMakeLists.txt and package.xml. Make sure dependencies are in there as well.
 * Contributors: Markus Bajones
 
-0.0.4 (2016-01-12)
+0.0.1 (2015-12-16)
 ------------------
-
-0.1.0 (2015-12-16 15:01:14 +0100)
----------------------------------
-
-0.0.1 (2015-12-16 15:01:14 +0100)
----------------------------------
 * Moved message and service definitions from squirrel_perception/squirrel_active_exploration to squirrel_common/squirrel_object_perception_msgs. Modified CMakeLists and package.xml to correctly generate the header files.
 * Add response in *ObjectTracking.srv
 * added attention services
