@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2016-01-20)
+------------------
 * small change in CMakeLists
 * added srv and msgs for finding dynamic objects
 * include folder not found
