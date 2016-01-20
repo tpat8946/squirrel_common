@@ -2,6 +2,11 @@
 Changelog for package squirrel_prediction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added missed dependencies
+* Contributors: buildbot-squirrel
+
 0.0.2 (2016-01-13)
 ------------------
 

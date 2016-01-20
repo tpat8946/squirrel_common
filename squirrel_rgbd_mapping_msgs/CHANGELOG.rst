@@ -2,6 +2,11 @@
 Changelog for package squirrel_rgbd_mapping_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* modified service
+* Contributors: Federico Boniardi
+
 0.0.2 (2016-01-13)
 ------------------
 
