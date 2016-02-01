@@ -2,6 +2,9 @@
 Changelog for package squirrel_rgbd_mapping_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.4 (2016-01-13)
 ------------------
 

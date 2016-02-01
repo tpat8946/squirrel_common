@@ -2,6 +2,9 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.4 (2016-01-13)
 ------------------
 * small change in CMakeLists

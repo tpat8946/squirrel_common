@@ -2,6 +2,9 @@
 Changelog for package robotino_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.3 (2016-01-20)
 ------------------
 * moved msgs package
