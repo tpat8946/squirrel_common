@@ -2,6 +2,11 @@
 Changelog for package squirrel_planning_knowledge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added size parameter
+* Contributors: mzillich
+
 0.0.6 (2016-02-01)
 ------------------
 

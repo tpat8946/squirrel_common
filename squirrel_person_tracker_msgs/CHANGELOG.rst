@@ -2,6 +2,11 @@
 Changelog for package squirrel_person_tracker_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add squirrel_person_msgs service set bool
+* Contributors: Peter Regier
+
 0.0.6 (2016-02-01)
 ------------------
 
