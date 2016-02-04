@@ -2,8 +2,8 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2016-02-04)
+------------------
 * Merge pull request `#83 <https://github.com/squirrel-project/squirrel_common/issues/83>`_ from squirrel-project/indigo_dev
   update release
 * removed actionlib and rospy from waypoint package
