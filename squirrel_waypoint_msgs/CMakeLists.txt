@@ -26,10 +26,10 @@ generate_messages(
 ## Declare a catkin package
 catkin_package(
    CATKIN_DEPENDS 
-	message_runtime 
-	std_msgs 
-	geometry_msgs
-	diagnostic_msgs
+  message_runtime 
+  std_msgs 
+  geometry_msgs
+  diagnostic_msgs
 )
 
 ###########
