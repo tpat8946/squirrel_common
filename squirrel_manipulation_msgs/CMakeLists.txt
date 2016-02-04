@@ -25,7 +25,13 @@ find_package(catkin REQUIRED COMPONENTS
    Push.action
    PutDown.action
    Smash.action
+   GraspAction.action
  )
+
+add_message_files(
+  FILES
+  Grasp.msg
+)
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(

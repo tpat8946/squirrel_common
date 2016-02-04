@@ -1,0 +1,5 @@
+string objectID
+string gripperConfiguration
+geometry_msgs/PoseStamped groundTruth
+geometry_msgs/PoseStamped learnedObjectPose
+geometry_msgs/PoseStamped gripperPose
