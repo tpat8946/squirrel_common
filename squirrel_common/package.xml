@@ -15,6 +15,7 @@
   <run_depend>squirrel_rgbd_mapping_msgs</run_depend>
   <run_depend>squirrel_person_tracker_msgs</run_depend>
   <run_depend>squirrel_prediction_msgs</run_depend>
+  <run_depend>squirrel_waypoint_msgs</run_depend>
   <run_depend>robotino_msgs</run_depend>
 
 
