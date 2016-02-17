@@ -2,8 +2,8 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.9 (2016-02-17)
+------------------
 * Merge github.com:ipa-nhg/squirrel_common into indigo_dev
   Conflicts:
   squirrel_common/package.xml
