@@ -1,4 +1,5 @@
-# add object to scene database
+# update an object in the scene database
+squirrel_object_perception_msgs/SceneObject object
 string id
 string category
 geometry_msgs/PoseStamped pose
