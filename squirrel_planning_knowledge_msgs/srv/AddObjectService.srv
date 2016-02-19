@@ -1,5 +1,10 @@
-# add object to the scene database
-squirrel_object_perception_msgs/SceneObject object
+# add object to scene database
+string id
+string category
+geometry_msgs/PoseStamped pose
+sensor_msgs/PointCloud2 cloud
+# diameter of a bounding sphere
+float64 size
 ---
 uint8 SUCCESS = 0
 uint8 FAILURE = 1
