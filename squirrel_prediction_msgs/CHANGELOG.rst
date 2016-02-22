@@ -2,6 +2,9 @@
 Changelog for package squirrel_prediction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.9 (2016-02-17)
 ------------------
 
