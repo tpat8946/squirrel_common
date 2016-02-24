@@ -2,8 +2,8 @@
 Changelog for package squirrel_3d_mapping_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.12 (2016-02-24)
+-------------------
 * added OctomapUpdate msg
 * Contributors: Federico Boniardi
 
