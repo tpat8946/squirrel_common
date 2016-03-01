@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib
   std_msgs
   sensor_msgs
+  geometry_msgs
   message_generation
 )
 
@@ -32,6 +33,12 @@ add_message_files(
   FILES
   Grasp.msg
 )
+
+add_service_files(
+  FILES
+  GraspImport.srv
+)
+
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(

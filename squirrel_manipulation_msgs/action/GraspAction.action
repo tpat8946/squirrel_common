@@ -2,7 +2,7 @@
 
 #goal
 squirrel_manipulation_msgs/Grasp grasp
-geometry_msgs/PoseStamped objectPose
+geometry_msgs/PoseStamped object_pose
 ---
 #result definition
 string result_status

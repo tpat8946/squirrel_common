@@ -1,5 +1,6 @@
-string objectID
-string gripperConfiguration
-geometry_msgs/PoseStamped groundTruth
-geometry_msgs/PoseStamped learnedObjectPose
-geometry_msgs/PoseStamped gripperPose
+string object_id
+string gripper_config
+float64 quality
+geometry_msgs/PoseStamped object_ground_truth
+geometry_msgs/PoseStamped learned_object_pose
+geometry_msgs/PoseStamped gripper_pose
