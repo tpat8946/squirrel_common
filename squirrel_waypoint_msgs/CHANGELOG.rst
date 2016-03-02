@@ -2,8 +2,8 @@
 Changelog for package squirrel_waypoint_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.13 (2016-03-02)
+-------------------
 * Merge pull request `#101 <https://github.com/squirrel-project/squirrel_common/issues/101>`_ from squirrel-project/indigo_dev
   update
 * examine waypoints depending on lump diameter
