@@ -53,10 +53,6 @@ add_service_files(
   SegmentsToObjects.srv
   StartObjectTracking.srv
   StopObjectTracking.srv
-  StartInstanceTracking.srv
-  StopInstanceTracking.srv
-  StartLumpTracking.srv
-  StopLumpTracking.srv
 )
 
 add_action_files(
