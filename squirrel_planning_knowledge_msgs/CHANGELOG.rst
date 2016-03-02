@@ -2,6 +2,13 @@
 Changelog for package squirrel_planning_knowledge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Revert "Revert "added more tracking services""
+* Revert "added more tracking services"
+* added more tracking services
+* Contributors: Nadia Hammoudeh García, mzillich
+
 0.0.12 (2016-02-24)
 -------------------
 

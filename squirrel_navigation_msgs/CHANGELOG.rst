@@ -2,6 +2,9 @@
 Changelog for package squirrel_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.12 (2016-02-24)
 -------------------
 
