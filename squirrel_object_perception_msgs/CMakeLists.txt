@@ -27,6 +27,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  ActiveExplorationNBV.srv
   Classify.srv
   ClearFixation.srv
   CoveragePlan.srv

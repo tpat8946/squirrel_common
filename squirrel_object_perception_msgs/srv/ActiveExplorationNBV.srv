@@ -1,0 +1,26 @@
+# Determines the next best view in order to improve the classification
+# of observed objects
+# author: Tim Patten, t.patten@acfr.usyd.edu.au
+
+# the original full view organized point cloud
+sensor_msgs/PointCloud2 cloud
+
+# the indices of the segmented clusters
+std_msgs/Int32MultiArray[] clusters_indices
+
+# the list of classification results for clusters
+squirrel_object_perception_msgs/Classification[] class_results
+
+# the occupancy map of the environment
+octomap_msgs/Octomap map
+
+# the list of candidate viewpoints in the map
+geometry_msgs/Point[] locations
+
+---
+
+# the index into locations with highest utility (-1 for error)
+int8 nbv_ix
+
+# the list of utility values for each location
+float32[] utilities
