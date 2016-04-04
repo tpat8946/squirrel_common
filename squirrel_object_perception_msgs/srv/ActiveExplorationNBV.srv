@@ -2,6 +2,9 @@
 # of observed objects
 # author: Tim Patten, t.patten@acfr.usyd.edu.au
 
+# the variance value used in utility calculation (default is 0.5)
+float32 variance
+
 # the original full view organized point cloud
 sensor_msgs/PointCloud2 cloud
 
