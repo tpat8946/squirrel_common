@@ -5,6 +5,7 @@ project(squirrel_manipulation_msgs)
 find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   actionlib
+  squirrel_object_perception_msgs
   std_msgs
   sensor_msgs
   geometry_msgs
@@ -46,6 +47,7 @@ add_service_files(
    std_msgs  # Or other packages containing msgs
    sensor_msgs
    actionlib_msgs
+   squirrel_object_perception_msgs
  )
 
 ###################################
