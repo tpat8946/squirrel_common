@@ -7,21 +7,21 @@
 
 # complete list of all expressions that the robot can display
 # hello, as greeting
-string HELLO = "HELLO"
+string HELLO = HELLO
 # ok, acknowledge
-string OK = "OK"
+string OK = OK
 # yes, as an answer to a polar question
-string YES = "YES" 
+string YES = YES
 # no, as an answer to a polar question
-string NO = "NO"
+string NO = NO
 # look here, here! trying to grab the user's attention
-string HERE_HERE = "HERE_HERE"
+string HERE_HERE = HERE_HERE
 # something went wrong, expressing distress
-string OH_NO = "OH_NO"
+string OH_NO = OH_NO
 # something succeeded, expressing happiness
-string YEAH = "YEAH"
+string YEAH = YEAH
 # something unexpected just happened
-string SURPRISE = "SURPRISE"
+string SURPRISE = SURPRISE
 # whaat? something is unclear, tell me more
-string WHAT = "WHAT"
+string WHAT = WHAT
 
