@@ -2,8 +2,8 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.14 (2016-04-06)
+-------------------
 * Merge pull request `#104 <https://github.com/squirrel-project/squirrel_common/issues/104>`_ from squirrel-project/indigo_dev
   Update
 * fixed strings

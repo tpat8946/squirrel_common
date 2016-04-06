@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.14 (2016-04-06)
+-------------------
 * Add new action for haf_grasping integration
 * added comments for clarification
 * Contributors: Markus Bajones, mzillich
