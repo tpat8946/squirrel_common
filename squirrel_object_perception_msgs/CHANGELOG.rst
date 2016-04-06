@@ -2,6 +2,12 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add new action for haf_grasping integration
+* added comments for clarification
+* Contributors: Markus Bajones, mzillich
+
 0.0.13 (2016-03-02)
 -------------------
 * Revert "Revert "added more tracking services""

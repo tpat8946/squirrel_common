@@ -2,6 +2,9 @@
 Changelog for package squirrel_mhand_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.13 (2016-03-02)
 -------------------
 
