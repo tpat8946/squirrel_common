@@ -2,6 +2,32 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.14 (2016-04-06)
+-------------------
+* Add new action for haf_grasping integration
+* added comments for clarification
+* Contributors: Markus Bajones, mzillich
+
+0.0.13 (2016-03-02)
+-------------------
+* Revert "Revert "added more tracking services""
+* Revert "added more tracking services"
+* added more tracking services
+* updated FindDynamicObjects service: using SceneObject now and returns three lists
+* Contributors: Edith Langer, Nadia Hammoudeh García, mzillich
+
+0.0.12 (2016-02-24)
+-------------------
+
+0.0.11 (2016-02-22)
+-------------------
+
+0.0.10 (2016-02-22)
+-------------------
+
+0.0.9 (2016-02-17)
+------------------
+
 0.0.8 (2016-02-04)
 ------------------
 * forgot the CMakelists file
