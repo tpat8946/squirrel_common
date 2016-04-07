@@ -2,6 +2,33 @@
 Changelog for package squirrel_planning_knowledge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.14 (2016-04-06)
+-------------------
+
+0.0.13 (2016-03-02)
+-------------------
+* Revert "Revert "added more tracking services""
+* Revert "added more tracking services"
+* added more tracking services
+* Contributors: Nadia Hammoudeh García, mzillich
+
+0.0.12 (2016-02-24)
+-------------------
+
+0.0.11 (2016-02-22)
+-------------------
+* add SceneObject
+* Revert "added SceneObject"
+* Contributors: Nadia Hammoudeh García, ipa-nhg
+
+0.0.10 (2016-02-22)
+-------------------
+
+0.0.9 (2016-02-17)
+------------------
+* added SceneObject ms msgg
+* Contributors: mzillich
+
 0.0.8 (2016-02-04)
 ------------------
 
