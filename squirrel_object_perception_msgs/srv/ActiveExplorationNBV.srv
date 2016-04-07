@@ -2,6 +2,9 @@
 # of observed objects
 # author: Tim Patten, t.patten@acfr.usyd.edu.au
 
+# the current pose of the camera
+geometry_msgs/Pose camera_pose
+
 # the variance value used in utility calculation (default is 0.5)
 float32 variance
 
@@ -30,12 +33,17 @@ float32 robot_radius
 float32 distance_from_center
 
 # the number of viewpoints per object to generate (optional, but required if candidate viewpoints is empty)
-int8 num_locations
+uint32 num_locations
+
+# planning type method selection
+# TRUE considers the visibility due to occlusions, this is slow but possibly more accurate
+# FALSE does not consider occlusions, this is fast but only considers class performance and not the actual visibility
+bool occlusions
 
 ---
 
 # the index into locations with highest utility (-1 for error)
-int8 nbv_ix
+uint32 nbv_ix
 
 # the list of candidate viewpoints in the map that are generated if not originally specified
 geometry_msgs/Point[] generated_locations
