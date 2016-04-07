@@ -35,6 +35,7 @@ add_service_files(
   EntropyMapViz.srv
   FindDynamicObjects.srv
   FixatePosition.srv
+  FixatePanTilt.srv
   GetSaliency3DSymmetry.srv
   GetSaliencyColor.srv
   GetSaliencyHeight.srv
