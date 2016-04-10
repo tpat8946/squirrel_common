@@ -27,6 +27,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  ActiveExplorationNBV.srv
   Classify.srv
   ClearFixation.srv
   CoveragePlan.srv
@@ -35,6 +36,7 @@ add_service_files(
   EntropyMapViz.srv
   FindDynamicObjects.srv
   FixatePosition.srv
+  FixatePanTilt.srv
   GetSaliency3DSymmetry.srv
   GetSaliencyColor.srv
   GetSaliencyHeight.srv
@@ -62,6 +64,7 @@ add_service_files(
 add_action_files(
   FILES
   LookForObjects.action
+  GraspObject.action
 )
 
 generate_messages(

@@ -2,6 +2,34 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.14 (2016-04-06)
+-------------------
+* Merge pull request `#104 <https://github.com/squirrel-project/squirrel_common/issues/104>`_ from squirrel-project/indigo_dev
+  Update
+* fixed strings
+  added hri_msgs to meta package
+* Contributors: Nadia Hammoudeh García, mzillich
+
+0.0.13 (2016-03-02)
+-------------------
+
+0.0.12 (2016-02-24)
+-------------------
+
+0.0.11 (2016-02-22)
+-------------------
+
+0.0.10 (2016-02-22)
+-------------------
+
+0.0.9 (2016-02-17)
+------------------
+* Merge github.com:ipa-nhg/squirrel_common into indigo_dev
+  Conflicts:
+  squirrel_common/package.xml
+* Update package.xml
+* Contributors: Nadia Hammoudeh García, ipa-nhg
+
 0.0.8 (2016-02-04)
 ------------------
 * Merge pull request `#83 <https://github.com/squirrel-project/squirrel_common/issues/83>`_ from squirrel-project/indigo_dev
