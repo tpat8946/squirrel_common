@@ -2,8 +2,8 @@
 Changelog for package squirrel_rgbd_mapping_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.15 (2016-04-10)
+-------------------
 * Merge remote-tracking branch 'upstream/indigo_dev' into indigo_dev
   Conflicts:
   squirrel_waypoint_msgs/package.xml

@@ -2,8 +2,8 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.15 (2016-04-10)
+-------------------
 * manual merge resolution
 * Merge remote-tracking branch 'upstream/indigo_dev' into indigo_dev
 * 0.0.4

@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.15 (2016-04-10)
+-------------------
 * Merge pull request `#106 <https://github.com/squirrel-project/squirrel_common/issues/106>`_ from tpatten/indigo_dev
   Active exploration as ros service
 * Merge remote-tracking branch 'upstream/indigo_dev' into indigo_dev
