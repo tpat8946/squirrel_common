@@ -2,6 +2,9 @@
 Changelog for package squirrel_sketch_interface_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.15 (2016-04-10)
 -------------------
 
