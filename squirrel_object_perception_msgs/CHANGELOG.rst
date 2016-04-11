@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.16 (2016-04-11)
+-------------------
 * added id to lump tracker service
 * added to arrays as result (added/updated objects)
 * Contributors: Edith Langer
