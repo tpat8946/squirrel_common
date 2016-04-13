@@ -4,7 +4,7 @@
 # Note that there is no guarantee, that the robot will look actually there,
 # depening on other currently active goals.
 
-Float64 pan                 
-Float64 tilt                
+float32 pan                 
+float32 tilt                
 string why                  # a string indicating what caught the attention, e.g. "motion", "person", "face"
 ---

@@ -44,6 +44,7 @@ add_service_files(
   GetSaliencySurfaceOrientation.srv
   GetSaliencySymmetry.srv
   LookAtImagePosition.srv
+  LookAtPanTilt.srv
   LookAtPosition.srv
   Recognize.srv
   Segment.srv
