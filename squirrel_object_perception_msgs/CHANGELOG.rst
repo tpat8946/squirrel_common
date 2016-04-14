@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.17 (2016-04-14)
+-------------------
 * Merge pull request `#113 <https://github.com/squirrel-project/squirrel_common/issues/113>`_ from bajo/indigo_dev
   Add service for pan/tilt in angles instead of pixel coordinate
 * actually enable the service to be build
