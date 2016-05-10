@@ -2,6 +2,27 @@
 Changelog for package squirrel_person_tracker_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.18 (2016-05-10)
+-------------------
+* add skeleton msgs
+* Contributors: Peter Regier
+
+0.0.17 (2016-04-14)
+-------------------
+
+0.0.16 (2016-04-11)
+-------------------
+
+0.0.15 (2016-04-10)
+-------------------
+* manual merge resolution
+* 0.0.4
+* update
+* 0.0.3
+* updated version
+* add CHANGELOG.rst
+* Contributors: Philipp Zech, buildbot-squirrel
+
 0.0.14 (2016-04-06)
 -------------------
 
