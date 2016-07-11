@@ -3,10 +3,11 @@
   <name>squirrel_common</name>
   <version>0.0.18</version>
   <description>Definitions for mesages, services and actions. Startup packages for the robots</description>
-  <maintainer email="michael.cashmore@kcl.ac.uk">michael</maintainer>
+  <maintainer email="nadia.hammoudeh.garcia@ipa.fraunhofer.de">Nadia Hammoudeh Garcia</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>robotino_description</run_depend>
   <run_depend>robotino_msgs</run_depend>
   <run_depend>squirrel_3d_mapping_msgs</run_depend>
   <run_depend>squirrel_kclhand_msgs</run_depend>
