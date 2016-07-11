@@ -2,8 +2,8 @@
 Changelog for package robotino_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.19 (2016-07-11)
+-------------------
 * Move service definitions to correct module
   These services handle movement of the pan and tilt unit, which does not really fit into squirrel_object_perception.
 * Contributors: Markus Bajones
