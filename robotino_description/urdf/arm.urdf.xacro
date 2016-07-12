@@ -1,33 +1,20 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
-  <xacro:macro name="arm">
+  <xacro:macro name="arm" params="parent *origin name">
 
-    <link name="base">
-      <xacro:default_inertial/>
-      <visual>
-        <geometry>
-          <box size="0.04096 0.0473 0.105" />
-        </geometry>
-        <material name="white">
-          <color rgba="1 1 1 1"/>
-        </material>
-        <origin rpy="0 0 0" xyz="0 0 0.0525"/>
-      </visual>
-    </link>
-
-    <joint name="baserot" type="revolute">
-      <parent link="base"/>
-      <child link="motor1"/>
+    <joint name="${name}base_joint" type="revolute">
+      <parent link="${parent}"/>
+      <child link="${name}link0"/>
       <axis xyz="0 0 1" />
-      <origin xyz="0.0 -0.01591 0.140" rpy="0 0 0" />
+      <insert_block name="origin" />
       <limit upper="1.7" lower="-1.7" effort="160" velocity="30" />
     </joint>
 
-    <link name="motor1">
+    <link name="${name}link0">
       <xacro:default_inertial/>
       <visual>
         <geometry>
-          <mesh filename="package://robotino_description/meshes/arm/motor1.stl"/>
+          <mesh filename="package://robotino_description/meshes/arm/link0.stl"/>
         </geometry>
         <material name="white">
           <color rgba="1 1 1 1"/>
@@ -37,20 +24,20 @@
       <collision>
         <origin rpy="0 0 0" xyz="0 0 0."/>
         <geometry>
-          <mesh filename="package://robotino_description/meshes/arm/motor1_collision.stl"/>
+          <mesh filename="package://robotino_description/meshes/arm/link0_collision.stl"/>
         </geometry>
       </collision>
     </link>
 
-    <joint name="joint1" type="revolute">
-      <parent link="motor1"/>
-      <child link="link1"/>
+    <joint name="${name}joint1" type="revolute">
+      <parent link="${name}link0"/>
+      <child link="${name}link1"/>
       <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
       <axis xyz="0 1 0" />
       <limit upper="1.9" lower="-1.9" effort="190" velocity="30" />
     </joint>
 
-    <link name="link1">
+    <link name="${name}link1">
       <xacro:default_inertial/>
       <visual>
         <geometry>
@@ -67,14 +54,14 @@
       </collision>
     </link>
 
-    <gazebo reference="link1">
+    <gazebo reference="${name}link1">
         <material>Gazebo/White</material>
     </gazebo>
 
-    <joint name="joint2" type="revolute">
-      <parent link="link1"/>
+    <joint name="${name}joint2" type="revolute">
+      <parent link="${name}link1"/>
       <child link="motor2"/>
-      <origin xyz="0.0 0.09 0.28" rpy="0 0 0" />
+      <origin xyz="0.0 0.0 0.25" rpy="0 0 0" />
       <axis xyz="0 1 0" />
       <limit upper="1.9" lower="-1.9" effort="190" velocity="30" />
     </joint>
@@ -92,11 +79,11 @@
 
     <joint name="fixed_motor2_link2" type="fixed">
       <parent link="motor2"/>
-      <child link="link2"/>
+      <child link="${name}link2"/>
       <origin xyz="0.0 0.098 0.027" rpy="0 0 0" />
     </joint>
 
-    <link name="link2">
+    <link name="${name}link2">
       <xacro:default_inertial/>
       <visual>
         <geometry>
@@ -113,19 +100,19 @@
       </collision>
     </link>
 
-    <gazebo reference="link2">
+    <gazebo reference="${name}link2">
       <material>Gazebo/White</material>
     </gazebo>
 
-    <joint name="joint3" type="revolute">
-      <parent link="link2"/>
-      <child link="link3"/>
+    <joint name="${name}joint3" type="revolute">
+      <parent link="${name}link2"/>
+      <child link="${name}link3"/>
       <origin xyz="0.0 0.0 0.13" rpy="0 0 0" />
       <axis xyz="0 0 1" />
       <limit upper="1.7" lower="-1.7" effort="190" velocity="30" />
     </joint>
 
-    <link name="link3">
+    <link name="${name}link3">
       <xacro:default_inertial/>
       <visual>
         <geometry>
@@ -142,19 +129,19 @@
       </collision>
     </link>
 
-    <gazebo reference="link3">
+    <gazebo reference="${name}link3">
       <material>Gazebo/White</material>
     </gazebo>
 
-    <joint name="joint4" type="revolute">
-      <parent link="link3"/>
-      <child link="link4"/>
+    <joint name="${name}joint4" type="revolute">
+      <parent link="${name}link3"/>
+      <child link="${name}link4"/>
       <origin xyz="0.0 -0.053 0.065" rpy="0 0 0" />
       <axis xyz="0 1 0" />
       <limit upper="1.7" lower="-1.7" effort="160" velocity="30" />
     </joint>
 
-    <link name="link4">
+    <link name="${name}link4">
       <xacro:default_inertial/>
       <visual>
         <geometry>
@@ -171,23 +158,23 @@
       </collision>
     </link>
 
-    <gazebo reference="link4">
+    <gazebo reference="${name}link4">
       <material>Gazebo/White</material>
     </gazebo>
 
-    <joint name="joint5" type="revolute">
-      <parent link="link4"/>
-      <child link="link5"/>
+    <joint name="${name}joint5" type="revolute">
+      <parent link="${name}link4"/>
+      <child link="${name}link5"/>
       <origin xyz="0.0 -0.027 0.035" rpy="0 0 0" />
       <axis xyz="0 0 1" />
       <limit upper="1.7" lower="-1.7" effort="160" velocity="30" />
     </joint>
 
-    <link name="link5">
+    <link name="${name}link5">
       <xacro:default_inertial/>
     </link>
       
-    <gazebo reference="link5">
+    <gazebo reference="${name}link5">
       <material>Gazebo/White</material>
     </gazebo>
       
@@ -196,17 +183,24 @@
   <xacro:arm_SimpleTransmission number="3"></xacro:arm_SimpleTransmission>
   <xacro:arm_SimpleTransmission number="4"></xacro:arm_SimpleTransmission>
   <xacro:arm_SimpleTransmission number="5"></xacro:arm_SimpleTransmission>
-  <xacro:arm_SimpleTransmission number="6"></xacro:arm_SimpleTransmission>
-  <xacro:arm_SimpleTransmission number="7"></xacro:arm_SimpleTransmission>
+
+    <transmission name="${name}base_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${name}base_joint">
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${name}base_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
 
   </xacro:macro>
 
   <xacro:macro name="arm_SimpleTransmission" params="number">
     <transmission name="arm_${number}_trans">
       <type>transmission_interface/SimpleTransmission</type>
-      <joint name="joint${number}">
+      <joint name="${name}joint${number}">
         <hardwareInterface>PositionJointInterface</hardwareInterface>
-        <hardwareInterface>VelocityJointInterface</hardwareInterface>
       </joint>
       <actuator name="arm_${number}_motor">
         <mechanicalReduction>1</mechanicalReduction>
