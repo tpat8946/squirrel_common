@@ -14,7 +14,7 @@
 
   <run_depend>gazebo_ros</run_depend>
   <run_depend>xacro</run_depend>
-
+  <run_depend>kclhand_description</run_depend>
   <export>
   </export>
 </package>
