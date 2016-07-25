@@ -2,6 +2,7 @@
 string data_path
 string input_file
 string output_file
+int32 number_of_columns
 ---
 #output
 bool finished
