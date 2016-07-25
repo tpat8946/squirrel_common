@@ -1,6 +1,7 @@
 # add object to scene database
-string inputFile
-string outputFile
+string data_path
+string input_file
+string output_file
 ---
 #output
 bool finished
