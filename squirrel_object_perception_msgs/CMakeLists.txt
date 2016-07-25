@@ -29,14 +29,11 @@ add_service_files(
   FILES
   ActiveExplorationNBV.srv
   Classify.srv
-  ClearFixation.srv
   CoveragePlan.srv
   CoveragePlanFile.srv
   EntropyMap.srv
   EntropyMapViz.srv
   FindDynamicObjects.srv
-  FixatePosition.srv
-  FixatePanTilt.srv
   GetSaliency3DSymmetry.srv
   GetSaliencyColor.srv
   GetSaliencyHeight.srv
@@ -44,8 +41,6 @@ add_service_files(
   GetSaliencyLocation.srv
   GetSaliencySurfaceOrientation.srv
   GetSaliencySymmetry.srv
-  LookAtImagePosition.srv
-  LookAtPosition.srv
   Recognize.srv
   Segment.srv
   SegmentInit.srv
