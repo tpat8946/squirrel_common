@@ -4,13 +4,13 @@
 
     <joint name="${name}base_joint" type="revolute">
       <parent link="${parent}"/>
-      <child link="${name}link0"/>
+      <child link="${name}base_link"/>
       <axis xyz="0 0 1" />
       <insert_block name="origin" />
       <limit upper="1.7" lower="-1.7" effort="160" velocity="30" />
     </joint>
 
-    <link name="${name}link0">
+    <link name="${name}base_link">
       <xacro:default_inertial/>
       <visual>
         <geometry>
@@ -30,7 +30,7 @@
     </link>
 
     <joint name="${name}joint1" type="revolute">
-      <parent link="${name}link0"/>
+      <parent link="${name}base_link"/>
       <child link="${name}link1"/>
       <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
       <axis xyz="0 1 0" />
@@ -60,13 +60,13 @@
 
     <joint name="${name}joint2" type="revolute">
       <parent link="${name}link1"/>
-      <child link="motor2"/>
+      <child link="${name}motor2"/>
       <origin xyz="0.0 0.0 0.25" rpy="0 0 0" />
       <axis xyz="0 1 0" />
       <limit upper="1.9" lower="-1.9" effort="190" velocity="30" />
     </joint>
 
-    <link name="motor2">
+    <link name="${name}motor2">
       <xacro:default_inertial/>
       <visual>
         <geometry>
@@ -78,7 +78,7 @@
     </link>
 
     <joint name="fixed_motor2_link2" type="fixed">
-      <parent link="motor2"/>
+      <parent link="${name}motor2"/>
       <child link="${name}link2"/>
       <origin xyz="0.0 0.098 0.027" rpy="0 0 0" />
     </joint>
