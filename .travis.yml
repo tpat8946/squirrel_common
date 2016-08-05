@@ -19,6 +19,7 @@ install:
   - sudo apt-get install -qq -y python-rosdep python-catkin-tools
   - sudo rosdep init
   - rosdep update
+  - sudo apt-get install ros-indigo-desktop
   # Use rosdep to install all dependencies (including ROS itself)
 script:
   - source /opt/ros/$CI_ROS_DISTRO/setup.bash
@@ -27,7 +28,8 @@ script:
   - cd $CATKIN_WS
   - git clone https://github.com/squirrel-project/squirrel_substitute.git ~/catkin_ws/src/squirrel_substitute
   - catkin init
-  - rosdep install --from-paths src/ -i -y --rosdistro $CI_ROS_DISTRO# Enable install space
+  - rosdep install --from-paths src/ -i -y --rosdistro $CI_ROS_DISTRO
+  # Enable install space
   #- catkin config --install
   # Build [and Install] packages
   - catkin build --limit-status-rate 0.1 --no-notify -DCMAKE_BUILD_TYPE=Release
