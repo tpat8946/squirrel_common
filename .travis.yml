@@ -26,8 +26,9 @@ script:
   - mkdir -p $CATKIN_WS_SRC
   - ln -s $TRAVIS_BUILD_DIR $CATKIN_WS_SRC
   - cd $CATKIN_WS
+  - git clone https://github.com/squirrel-project/squirrel_substitute.git ~/catkin_ws/src/squirrel_substitute
   - catkin init
-  # Enable install space
+  - rosdep install --from-paths src/ -i -y --rosdistro $CI_ROS_DISTRO# Enable install space
   #- catkin config --install
   # Build [and Install] packages
   - catkin build --limit-status-rate 0.1 --no-notify -DCMAKE_BUILD_TYPE=Release
