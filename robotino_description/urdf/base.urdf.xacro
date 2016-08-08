@@ -118,6 +118,7 @@
     <wheel_transmission name="wheel2" />
     <wheel_gazebo name="wheel2" />
      
+
   </xacro:macro>
 
   <!-- WHEEL -->
@@ -160,6 +161,19 @@
     <transmission name="${name}_trans">
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${name}_joint" >
+        <hardwareInterface>VelocityJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${name}_motor">
+        <hardwareInterface>VelocityJointInterface</hardwareInterface>
+        <mechanicalReduction>${ 624/35 * 80/18}</mechanicalReduction>
+      </actuator>
+    </transmission>
+  </xacro:macro>
+
+  <xacro:macro name="joints_transmission" params="name">
+    <transmission name="${name}_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${name}" >
         <hardwareInterface>VelocityJointInterface</hardwareInterface>
       </joint>
       <actuator name="${name}_motor">
