@@ -2,12 +2,10 @@
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
   <xacro:macro name="arm" params="parent *origin name">
 
-    <joint name="${name}base_joint" type="revolute">
+    <joint name="${name}base_joint" type="fixed">
       <parent link="${parent}"/>
       <child link="${name}link0"/>
-      <axis xyz="0 0 1" />
       <insert_block name="origin" />
-      <limit upper="1.7" lower="-1.7" effort="160" velocity="30" />
     </joint>
 
     <link name="${name}link0">
