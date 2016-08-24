@@ -90,9 +90,9 @@
         </geometry>
       </visual>
       <collision>
-        <origin xyz="0.01 0 0" rpy="0 0 0"/>
+        <origin xyz="0.01 0 0.12" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://robotino_description/meshes/RobotinoBody.stl"/>
+          <cylinder length="0.24" radius="0.23"/>
         </geometry>
       </collision>
     </link>
