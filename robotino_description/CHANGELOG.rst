@@ -2,8 +2,8 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.20 (2016-09-07)
+-------------------
 * simplify collision model
 * created a new base urdf to plan
 * Merge branch 'Arm' of github.com:ipa-nhg/squirrel_common into Arm

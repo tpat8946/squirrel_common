@@ -2,8 +2,8 @@
 Changelog for package squirrel_prediction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.20 (2016-09-07)
+-------------------
 * added number of relations
 * datapath
 * dummy

@@ -2,8 +2,8 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.20 (2016-09-07)
+-------------------
 * added geometry_msgs dependency
 * added joint ptp action server messages
 * added ptp action lib msgs

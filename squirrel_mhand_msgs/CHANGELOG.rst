@@ -2,8 +2,8 @@
 Changelog for package squirrel_mhand_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.20 (2016-09-07)
+-------------------
 * Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc
   package restructuration and clean up
 * package restructuration

@@ -2,8 +2,8 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.20 (2016-09-07)
+-------------------
 * cleaning package.xml and CMakeLists
 * Update package.xml
 * Merge pull request `#131 <https://github.com/squirrel-project/squirrel_common/issues/131>`_ from federico-b/indigo_dev
