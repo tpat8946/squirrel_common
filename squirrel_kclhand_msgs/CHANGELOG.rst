@@ -2,6 +2,13 @@
 Changelog for package squirrel_kclhand_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc
+  package restructuration and clean up
+* package restructuration
+* Contributors: ipa-nhg, ipa-rmb
+
 0.0.19 (2016-07-11)
 -------------------
 

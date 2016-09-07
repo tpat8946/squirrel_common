@@ -2,6 +2,9 @@
 Changelog for package squirrel_waypoint_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.19 (2016-07-11)
 -------------------
 
