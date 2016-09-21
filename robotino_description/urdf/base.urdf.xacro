@@ -5,7 +5,15 @@
 
   <xacro:macro name="base" params="name">
   
-   <link name="${name}_link">
+   <joint name="origin_joint" type="prismatic">
+	  <parent link="origin"/>
+      <child link="${name}_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <axis xyz="1 0 0" />
+      <limit upper="10" lower="-10" effort="190" velocity="30" />
+    </joint>
+    
+    <link name="${name}_link">
       <inertial>
         <mass value="10" />
         <origin xyz="0 0 0" />
@@ -16,7 +24,8 @@
     </link>
 
     <joint name="${name}_jointx" type="prismatic">
-      <parent link="${name}_link"/>
+<!--      <parent link="${name}_link"/>-->
+	  <parent link="origin"/>
       <child link="${name}_linkx"/>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <axis xyz="1 0 0" />
