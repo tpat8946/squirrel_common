@@ -2,6 +2,9 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.21 (2016-09-15)
 -------------------
 * Merge remote-tracking branch 'origin/indigo_dev' into indigo_dev

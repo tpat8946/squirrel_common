@@ -2,6 +2,9 @@
 Changelog for package squirrel_3d_mapping_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.21 (2016-09-15)
 -------------------
 
