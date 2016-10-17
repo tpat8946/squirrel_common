@@ -27,6 +27,7 @@
   <run_depend>squirrel_vad_msgs</run_depend>
   <run_depend>squirrel_waypoint_msgs</run_depend>
   <run_depend>squirrel_hri_msgs</run_depend>
+  <run_depend>soft_hand_descritpion</run_depend>
 
   <export>
 	<metapackage/>
