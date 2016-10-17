@@ -436,18 +436,18 @@
   <link name="${name}_wrist_link">
       <xacro:default_inertial/>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="1.5708 0 0" />
       <geometry>
-        <mesh filename="package://softhand_description/meshes/wrist.stl" />
+        <mesh filename="package://soft_hand_description/meshes/wrist.stl" />
       </geometry>
       <material name="">
         <color rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="1.5708 0 0" />
       <geometry>
-        <mesh filename="package://softhand_description/meshes/wrist.stl" />
+        <mesh filename="package://soft_hand_description/meshes/wrist.stl" />
       </geometry>
     </collision>
   </link>
@@ -456,31 +456,31 @@
     <origin xyz="-0.02105 0.1485 0" rpy="0 0.52 0" />
     <parent link="${name}_wrist_link" />
     <child link="${name}_base_link" />
-    </joint>
+  </joint>
 
   <!-- Angular adapter for SoftHand -->
-  <link name="${name}_base_link">
+  <link parent="${name}_wrist_link" name="${name}_base_link">
       <xacro:default_inertial/>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="-0.02 -0.145 0.07" rpy="3.14 0.7854 3.14" />
       <geometry>
-        <mesh filename="package://softhand_description/meshes/robotino_softhand_adapter.stl" />
+        <mesh filename="package://soft_hand_description/meshes/robotino_softhand_adapter_scaled.stl" />
       </geometry>
       <material name="">
         <color rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="-0.02 -0.145 0.07" rpy="3.14 0.7854 3.14" />
       <geometry>
-        <mesh filename="package://softhand_description/meshes/robotino_softhand_adapter.stl" />
+        <mesh filename="package://soft_hand_description/meshes/robotino_softhand_adapter_scaled.stl" />
       </geometry>
     </collision>
   </link>
 
 		<!-- CLAMP -->
 		<xacro:clamp parent="${name}_base_link" name="${name}_clamp">
-			<origin xyz="0 0 0.01" rpy="0 0 0"/>
+			<origin xyz="-0.02 -0.145 0.07" rpy="0 -0.7854 0"/>
 		</xacro:clamp>
 
 		<!-- SOFT HAND BASE -->
