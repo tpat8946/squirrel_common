@@ -1,5 +1,4 @@
 sensor_msgs/PointCloud2 cloud
-string tree_filename
 float32[] odometry
 ---
 int32[] static_points
