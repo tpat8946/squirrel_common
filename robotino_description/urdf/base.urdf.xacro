@@ -8,13 +8,12 @@
 
   <!--###### IF 8 DOF the joints can be moved ######-->
   <xacro:if value="${has_8dof}">
-
-  <link name="origin" />
-
-  <joint name="origin_joint" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+   <joint name="origin_joint" type="prismatic">
     <parent link="origin"/>
     <child link="${name}_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit upper="10" lower="-10" effort="190" velocity="30" />
    </joint>
 
    <link name="${name}_link">
