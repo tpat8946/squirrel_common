@@ -8,6 +8,17 @@
 
   <!--###### IF 8 DOF the joints can be moved ######-->
   <xacro:if value="${has_8dof}">
+
+  <link name="origin">
+    <inertial>
+      <mass value="10" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="75.0" ixy="0.0" ixz="0.0"
+        iyy="75.0" iyz="0.0"
+        izz="75.0" />
+    </inertial>
+  </link>
+
    <joint name="origin_joint" type="prismatic">
     <parent link="origin"/>
     <child link="${name}_link"/>
