@@ -1,10 +1,12 @@
 # Manipulation action messages: HANDOVER
 
 # goal definition
+# type 'give' or 'take'
 string action_type
 int32 hadover_type
 ---
 # result definition
+# type 'given', 'taken' or 'failed'
 string result_status
 ---
 #feedback
