@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:include filename="$(find soft_hand_description)/model/soft_hand.urdf.xacro" />
+  <xacro:include filename="$(find soft_hand_description)/model/soft_hand_fixed.urdf.xacro" />
 
   <xacro:macro name="softhand" params="parent name withAdaptiveTransmission useMimicTag left *origin">
 
