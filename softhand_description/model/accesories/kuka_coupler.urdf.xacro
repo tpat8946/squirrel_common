@@ -11,7 +11,7 @@
     <visual>
       <origin xyz="0 0 0.0115" rpy="0 0 0"/>
       <geometry>
-         <!-- mesh filename="package://soft_hand_description/meshes/accesories/kuka_coupler.stl"/-->
+         <!-- mesh filename="package://softhand_description/meshes/accesories/kuka_coupler.stl"/-->
          <cylinder radius="0.033" length="0.023"/>
       </geometry>
       <material name="SoftHand/Blue"/>

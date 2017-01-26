@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:include filename="$(find soft_hand_description)/model/soft_hand_fixed.urdf.xacro" />
+  <xacro:include filename="$(find softhand_description)/model/soft_hand_fixed.urdf.xacro" />
 
   <xacro:macro name="softhand" params="parent name withAdaptiveTransmission useMimicTag left *origin">
 
@@ -29,7 +29,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://soft_hand_description/meshes/cableCanalCollision.stl" />
+        <mesh filename="package://softhand_description/meshes/cableCanalCollision.stl" />
       </geometry>
     </collision>
   </link>
