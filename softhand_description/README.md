@@ -3,7 +3,7 @@ Soft Hand model
 
 If you want to use the Pisa/IIT soft hand in your URDF, you can do so by including the model:
 
-`<xacro:include filename="$(find soft_hand_description)/model/soft_hand.urdf.xacro"/>`
+`<xacro:include filename="$(find softhand_description)/model/soft_hand.urdf.xacro"/>`
 
 And then, using as many hands as you want as:
 

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>soft_hand_description</name>
+  <name>softhand_description</name>
   <version>0.0.0</version>
-  <description>The soft_hand_description package</description>
+  <description>The softhand_description package</description>
 
   <maintainer email="philipp.zech@uibk.ac.at">Philipp Zech</maintainer>
   <license>GPLv2</license>

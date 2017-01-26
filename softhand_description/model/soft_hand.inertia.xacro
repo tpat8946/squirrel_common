@@ -23,7 +23,7 @@
     </xacro:property>
 
 <!-- MESHLAB RESULT 
-Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/soft_hand_description/meshes/knuckle.stl in 9 msec
+Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/softhand_description/meshes/knuckle.stl in 9 msec
 All files opened in 1398 msec
 Enabled Decorate mode Show Axis
 Mesh Bounding Box Size 34.382004 14.000006 24.628571
@@ -51,7 +51,7 @@ axis momenta are :
     </xacro:property>
 
 <!-- MESHLAB RESULT 
-Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/soft_hand_description/meshes/thumb_knuckle.stl in 6 msec
+Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/softhand_description/meshes/thumb_knuckle.stl in 6 msec
 All files opened in 1493 msec
 Enabled Decorate mode Show Axis
 Mesh Bounding Box Size 38.298431 21.449932 21.967697
@@ -79,7 +79,7 @@ axis momenta are :
     </xacro:property>
 
 <!-- MESHLAB RESULT 
-Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/soft_hand_description/meshes/phalanx.stl in 8 msec
+Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/softhand_description/meshes/phalanx.stl in 8 msec
 All files opened in 1240 msec
 Mesh Bounding Box Size 25.158094 14.000006 18.515181
 Mesh Bounding Box Diag 34.230713 
@@ -106,7 +106,7 @@ axis momenta are :
     </xacro:property>
 
 <!-- MESHLAB RESULT 
-Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/soft_hand_description/meshes/fingertip.stl in 7 msec
+Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/softhand_description/meshes/fingertip.stl in 7 msec
 All files opened in 1241 msec
 Mesh Bounding Box Size 32.299561 14.000006 19.228573
 Mesh Bounding Box Diag 40.112339 
@@ -133,7 +133,7 @@ axis momenta are :
     </xacro:property>
 
 <!-- MESHLAB RESULT 
-Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/soft_hand_description/meshes/palm_right.stl in 13 msec
+Opened mesh /home/crosales/Code/catkin_ws/src/pisa-iit-soft-hand/soft_hand/softhand_description/meshes/palm_right.stl in 13 msec
 All files opened in 1178 msec
 Mesh Bounding Box Size 36.539444 91.129791 84.829025
 Mesh Bounding Box Diag 129.752579 
