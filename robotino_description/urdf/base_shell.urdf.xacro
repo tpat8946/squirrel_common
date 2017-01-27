@@ -22,6 +22,9 @@
         <geometry>
           <mesh filename="package://robotino_description/meshes/squirrel_assembly.stl"/>
         </geometry>
+        <material name="lightGrey">
+          <color rgba="0.9 0.9 0.9 1"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0.05" rpy="0 0 -0.7"/>
@@ -30,6 +33,13 @@
         </geometry>
       </collision>
     </link>
+
+    <gazebo reference="${name}_link">
+      <gravity>true</gravity>
+      <self_collide>false</self_collide>
+      <material>Gazebo/LightGrey</material>
+    </gazebo>
+
   </xacro:macro>
 
 </root>
