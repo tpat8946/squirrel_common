@@ -20,7 +20,7 @@
       <visual>
         <origin xyz="0 0 -0.05" rpy="0 0 ${M_PI/2}" />
         <geometry>
-          <mesh filename="package://robotino_description/meshes/RobotinoLaserScanner.dae" scale="${M_SCALE} ${M_SCALE} ${M_SCALE}"/>
+          <mesh filename="package://robotino_description/meshes/hokuyo.dae" scale="${M_SCALE} ${M_SCALE} ${M_SCALE}"/>
         </geometry>
       </visual>
 
