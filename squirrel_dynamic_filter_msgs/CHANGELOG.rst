@@ -2,8 +2,8 @@
 Changelog for package squirrel_dynamic_filter_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.23 (2017-02-13)
+-------------------
 * added new msg file for dynamic filtering
 * new service
 * added new service to classify static

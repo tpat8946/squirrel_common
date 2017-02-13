@@ -2,8 +2,8 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.23 (2017-02-13)
+-------------------
 * changed to pose stamped
 * typo fixed
 * created new services for prediction and added comments for manipulation action

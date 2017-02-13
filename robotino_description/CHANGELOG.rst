@@ -2,8 +2,8 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.23 (2017-02-13)
+-------------------
 * Temporal fix: ignore the visual model of the shell
 * colored the shell
 * update arm colltion model to include the airskin
