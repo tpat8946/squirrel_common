@@ -1,9 +1,14 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package squirrel_speech_msgs
+Changelog for package softhand_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Forthcoming
 -----------
+* renamed soft_hand_description package to softhand_description
+* Contributors: ipa-nhg
+
+* renamed soft_hand_description package to softhand_description
+* Contributors: ipa-nhg
 
 0.0.22 (2016-09-28)
 -------------------
@@ -13,10 +18,6 @@ Forthcoming
 
 0.0.20 (2016-09-07)
 -------------------
-* Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc
-  package restructuration and clean up
-* package restructuration
-* Contributors: ipa-nhg, ipa-rmb
 
 0.0.19 (2016-07-11)
 -------------------
@@ -42,11 +43,11 @@ Forthcoming
 0.0.12 (2016-02-24)
 -------------------
 
-0.0.11 (2016-02-22)
--------------------
+0.0.11 (2016-02-22 15:45)
+-------------------------
 
-0.0.10 (2016-02-22)
--------------------
+0.0.10 (2016-02-22 09:51)
+-------------------------
 
 0.0.9 (2016-02-17)
 ------------------
@@ -56,5 +57,21 @@ Forthcoming
 
 0.0.7 (2016-02-02)
 ------------------
-* Added Messages for Speech Recognition
-* Contributors: Florian
+
+0.0.6 (2016-02-01)
+------------------
+
+0.0.5 (2016-01-20 17:53)
+------------------------
+
+0.0.4 (2016-01-20 17:26:08 +0100)
+---------------------------------
+
+0.0.3 (2016-01-20 17:26:08 +0100)
+---------------------------------
+
+0.0.2 (2016-01-13)
+------------------
+
+0.0.1 (2015-12-16)
+------------------

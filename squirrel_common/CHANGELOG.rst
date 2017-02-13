@@ -2,6 +2,13 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix type error
+* renamed soft_hand_description package to softhand_description
+* necessary fixes as proposed by Nadia
+* Contributors: Philipp Zech, ipa-nhg
+
 0.0.22 (2016-09-28)
 -------------------
 

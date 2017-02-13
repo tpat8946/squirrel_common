@@ -2,6 +2,12 @@
 Changelog for package squirrel_prediction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* updated cmake list
+* created new services for prediction and added comments for manipulation action
+* Contributors: Senka Krivic
+
 0.0.22 (2016-09-28)
 -------------------
 
