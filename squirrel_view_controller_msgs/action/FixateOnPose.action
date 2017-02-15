@@ -3,7 +3,7 @@
 
 # goal definition
 geometry_msgs/PoseStamped pose
-
+bool enable
 ---
 # result definition
 int32 result_status
