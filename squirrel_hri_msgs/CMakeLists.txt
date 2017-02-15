@@ -5,10 +5,18 @@ project(squirrel_hri_msgs)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  actionlib
+  actionlib_msgs
   rospy
   std_msgs
   message_generation
 )
+
+## Generate messages in the 'action' folder
+ add_message_files(DIRECTORY action
+   FILES
+   FollowChild.action
+ )
 
 ## Generate messages in the 'msg' folder
  add_message_files(DIRECTORY msg
@@ -26,7 +34,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES squirrel_speech_rec
-  CATKIN_DEPENDS rospy std_msgs message_runtime
+  CATKIN_DEPENDS rospy std_msgs message_runtime actionlib_msgs
 #  DEPENDS system_lib
 )
 
@@ -40,5 +48,3 @@ catkin_package(
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
-
-
