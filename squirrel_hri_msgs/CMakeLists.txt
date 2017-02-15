@@ -7,13 +7,14 @@ project(squirrel_hri_msgs)
 find_package(catkin REQUIRED COMPONENTS
   actionlib
   actionlib_msgs
+  geometry_msgs
   rospy
   std_msgs
   message_generation
 )
 
 ## Generate messages in the 'action' folder
- add_message_files(DIRECTORY action
+ add_action_files(DIRECTORY action
    FILES
    FollowChild.action
  )
@@ -25,11 +26,13 @@ find_package(catkin REQUIRED COMPONENTS
  )
 
 ## Generate added messages and services with any dependencies listed here
- generate_messages(
-   DEPENDENCIES
-   std_msgs
- )
-
+generate_messages(
+  DEPENDENCIES
+  actionlib_msgs
+  actionlib_msgs
+  geometry_msgs
+  std_msgs
+)
 
 catkin_package(
 #  INCLUDE_DIRS include
