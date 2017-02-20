@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.24 (2017-02-20)
+-------------------
 * add messages for view controller
 * Update srv and msg for v4r 1.4.4
 * Contributors: Jean-Baptiste Weibel, Markus Bajones

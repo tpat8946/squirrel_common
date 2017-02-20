@@ -2,8 +2,8 @@
 Changelog for package squirrel_vad_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.24 (2017-02-20)
+-------------------
 * comments are added
 * Contributors: batikim09
 

@@ -2,8 +2,8 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.24 (2017-02-20)
+-------------------
 * Merge pull request `#175 <https://github.com/squirrel-project/squirrel_common/issues/175>`_ from bajo/viewcontroller
   Add message definitions for new Viewcontroller
 * add messages for view controller
