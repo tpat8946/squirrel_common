@@ -13,7 +13,7 @@ env:
     - CATKIN_WS_UNDERLAY_SRC=${CATKIN_WS_UNDERLAY}/src
     - CI_ROS_DISTRO="indigo"
     - ROS_PARALLEL_JOBS=-j1
-    - DEFAULT_ROSINSTALL=".travis.rosinstall"
+    #- DEFAULT_ROSINSTALL=".travis.rosinstall"
 
 install:
   - bash .travis.sh
