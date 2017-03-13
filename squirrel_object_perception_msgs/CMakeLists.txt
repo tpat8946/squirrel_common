@@ -42,6 +42,7 @@ add_service_files(
   GetSaliencySurfaceOrientation.srv
   GetSaliencySymmetry.srv
   Recognize.srv
+  Recognize2d.srv
   Segment.srv
   SegmentInit.srv
   SegmentOnce.srv
@@ -64,7 +65,6 @@ add_action_files(
 
 generate_messages(
   DEPENDENCIES
-  actionlib_msgs
   actionlib_msgs
   geometry_msgs
   octomap_msgs
