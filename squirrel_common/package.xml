@@ -12,6 +12,7 @@
   <run_depend>squirrel_3d_localizer_msgs</run_depend>
   <run_depend>squirrel_3d_mapping_msgs</run_depend>
   <run_depend>squirrel_dynamic_filter_msgs</run_depend>
+  <run_depend>squirrel_footprint_observer_msgs</run_depend>
   <run_depend>squirrel_kclhand_msgs</run_depend>
   <run_depend>squirrel_localizer_msgs</run_depend>
   <run_depend>squirrel_manipulation_msgs</run_depend>
