@@ -29,12 +29,20 @@
   </link>
 
   <joint name="${name}_base_joint" type="fixed">
-    <origin xyz="-0.02105 0.1485 0" rpy="0 0.52 0"/>
+    <origin xyz="-0.02105 0.1485 0" rpy="-1.5708 0 0"/>
     <parent link="${name}_wrist_link"/>
     <child link="${name}_base_link"/>
   </joint>
 
-  <link name="${name}_base_link">
+  <link name="${name}_base_link"/>
+
+  <joint name="kcl${name}_base_joint" type="fixed">
+    <origin xyz="-0.02105 0.1485 0" rpy="0 0.52 0"/>
+    <parent link="${name}_wrist_link"/>
+    <child link="kcl${name}_base_link"/>
+  </joint>
+
+  <link name="kcl${name}_base_link">
     <xacro:default_inertial/>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -55,7 +63,7 @@
 
   <joint name="${name}_middle_finger_lower_joint" type="continuous">
     <origin xyz="0.035507 0.02 0.0205" rpy="-0.5236 5.5511E-17 1.5708"/>
-    <parent link="${name}_base_link"/>
+    <parent link="kcl${name}_base_link"/>
     <child link="${name}_middle_finger_lower_link"/>
     <axis xyz="0 0 -1"/>
   </joint>
@@ -107,7 +115,7 @@
 
   <joint name="${name}_left_crank_base_joint" type="continuous">
     <origin xyz="0 0 0" rpy="-2.1588 0.44783 -1.8518"/>
-    <parent link="${name}_base_link"/>
+    <parent link="kcl${name}_base_link"/>
     <child link="${name}_left_crank"/>
     <axis xyz="0 0 1"/>
   </joint>
@@ -211,7 +219,7 @@
 
   <joint name="${name}_right_crank_base_joint" type="continuous">
     <origin xyz="0 0 0" rpy="-5.5511E-17 -2.7756E-17 1.0472"/>
-    <parent link="${name}_base_link"/>
+    <parent link="kcl${name}_base_link"/>
     <child link="${name}_right_crank"/>
     <axis xyz="0 0 1"/>
   </joint>
@@ -349,7 +357,7 @@
   <xacro:kclhand_transmission name="${name}_right_finger_lower"/>
   <xacro:kclhand_transmission name="${name}_right_finger_upper"/>
 
-  <xacro:kclhand_gazebo name="${name}_base_link"/>
+  <xacro:kclhand_gazebo name="kcl${name}_base_link"/>
   <xacro:kclhand_gazebo name="${name}_left_coupler"/>
   <xacro:kclhand_gazebo name="${name}_left_crank"/>
   <xacro:kclhand_gazebo name="${name}_left_finger_lower_link"/>
