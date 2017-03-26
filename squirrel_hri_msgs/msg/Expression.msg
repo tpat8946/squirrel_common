@@ -9,6 +9,9 @@
 
 # -------------- standard expressions --------------
 
+# just looking neutral, straight ahead
+string NEUTRAL = NEUTRAL
+
 # hello
 string HELLO = HELLO
 
