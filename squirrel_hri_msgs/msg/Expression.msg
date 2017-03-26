@@ -9,11 +9,14 @@
 
 # -------------- standard expressions --------------
 
+# just looking neutral, straight ahead
+string NEUTRAL = NEUTRAL
+
 # hello
-string GREETING_IN = GREETING_IN
+string HELLO = HELLO
 
 # and good bye
-string GREETING_OUT = GREETING_OUT
+string GOODBYE = GOODBYE
 
 # ok, acknowledge
 string OK = OK
@@ -25,7 +28,7 @@ string YES = YES
 string NO = NO
 
 # something succeeded, expressing happiness
-string CHEERING_POSITIVE = CHEERING_POSITIVE
+string CHEERING = CHEERING
 
 # something went wrong, expressing distress
 string OH_NO = OH_NO
@@ -40,7 +43,7 @@ string SURPRISED = SURPRISED
 string ASKING = ASKING
 
 # I need time to think harder
-string NEED_TO_THINK_HARDER = NEED_TO_THINK_HARDER
+string THINKING = THINKING
 
 # look here, here! trying to grab the user's attention
 string HERE_HERE = HERE_HERE
