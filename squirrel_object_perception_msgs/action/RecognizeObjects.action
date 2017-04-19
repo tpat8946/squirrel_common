@@ -16,6 +16,7 @@ geometry_msgs/PoseStamped look_at_pose
 ---
 # result definition
 string result_status
+bool used_wizard
 SceneObject[] objects_added
 SceneObject[] objects_updated
 ---
