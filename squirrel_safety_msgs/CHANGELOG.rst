@@ -2,8 +2,8 @@
 Changelog for package squirrel_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.26 (2017-06-27)
+-------------------
 * added squirrel safety msgs for safety node
 * Contributors: Philipp Zech
 
