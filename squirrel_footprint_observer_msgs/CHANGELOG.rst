@@ -2,6 +2,9 @@
 Changelog for package squirrel_footprint_observer_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.25 (2017-03-16)
 -------------------
 * prepare squirrel_common for a new release

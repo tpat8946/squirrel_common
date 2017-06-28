@@ -2,6 +2,9 @@
 Changelog for package squirrel_person_tracker_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.24 (2017-02-20)
 -------------------
 
