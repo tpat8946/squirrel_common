@@ -46,14 +46,20 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  GlobalPlannerStats.msg
+  CellMSG.msg
+  ObjectMSG.msg
+  ObjectBufferMSG.msg
   ScanSafetyObservation.msg
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   ServiceFile.srv
-# )
+add_service_files(
+  FILES
+  PlannerUpdate.srv
+  ClutterInfo.srv
+  ClutterPlanner.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
