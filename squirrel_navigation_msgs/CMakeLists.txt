@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_generation
   std_msgs
+  nav_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -50,16 +51,13 @@ add_message_files(
   CellMSG.msg
   ObjectMSG.msg
   ObjectBufferMSG.msg
-  ScanSafetyObservation.msg
-)
+  ScanSafetyObservation.msg)
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  PlannerUpdate.srv
   ClutterInfo.srv
-  ClutterPlanner.srv
-)
+  ClutterPlanner.srv)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -73,7 +71,7 @@ generate_messages(
   DEPENDENCIES
   geometry_msgs  # Or other packages containing msgs
   std_msgs
-)
+  nav_msgs)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
