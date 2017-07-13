@@ -113,7 +113,7 @@
     <collision>
       <origin xyz="0.01 0 0.12" rpy="0 0 0"/>
       <geometry>
-       <cylinder length="0.24" radius="0.23"/>
+	<mesh filename="package://robotino_description/meshes/RobotinoBody.stl"/>
       </geometry>
     </collision>
    </link>
