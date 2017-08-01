@@ -103,8 +103,8 @@ generate_messages(
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES squirrel_2d_localizer_msgs
-#  CATKIN_DEPENDS other_catkin_pkg
+ # LIBRARIES squirrel_2d_localizer_msgs
+ CATKIN_DEPENDS message_generation message_runtime std_msgs
 #  DEPENDS system_lib
 )
 
