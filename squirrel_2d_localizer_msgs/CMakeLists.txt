@@ -1,16 +1,16 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(squirrel_localizer_msgs)
+project(squirrel_2d_localizer_msgs)
+
+## Compile as C++11, supported in ROS Kinetic and newer
+# add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin 
-  REQUIRED COMPONENTS
-  roscpp
-  geometry_msgs 
-  sensor_msgs 
-  std_msgs
+find_package(catkin REQUIRED
   message_generation
+  message_runtime
+  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -31,10 +31,10 @@ find_package(catkin
 ## * Let MSG_DEP_SET be the set of packages whose message types you use in
 ##   your messages/services/actions (e.g. std_msgs, actionlib_msgs, ...).
 ## * In the file package.xml:
+##   * add a build_depend tag for "message_generation"
 ##   * add a build_depend and a run_depend tag for each package in MSG_DEP_SET
-##   * If MSG_DEP_SET isn't empty the following dependencies might have been
-##     pulled in transitively but can be declared for certainty nonetheless:
-##     * add a build_depend tag for "message_generation"
+##   * If MSG_DEP_SET isn't empty the following dependency has been pulled in
+##     but can be declared for certainty nonetheless:
 ##     * add a run_depend tag for "message_runtime"
 ## * In this file (CMakeLists.txt):
 ##   * add "message_generation" and every package in MSG_DEP_SET to
@@ -47,10 +47,11 @@ find_package(catkin
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-add_message_files(
-  FILES
-  RefScan.msg
-)
+# add_message_files(
+#   FILES
+#   Message1.msg
+#   Message2.msg
+# )
 
 ## Generate services in the 'srv' folder
 add_service_files(
@@ -58,13 +59,38 @@ add_service_files(
   GlobalLocalization.srv
 )
 
+## Generate actions in the 'action' folder
+# add_action_files(
+#   FILES
+#   Action1.action
+#   Action2.action
+# )
+
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
-   DEPENDENCIES
-   geometry_msgs
-   sensor_msgs
-   std_msgs
+  DEPENDENCIES
+  std_msgs  
 )
+
+################################################
+## Declare ROS dynamic reconfigure parameters ##
+################################################
+
+## To declare and build dynamic reconfigure parameters within this
+## package, follow these steps:
+## * In the file package.xml:
+##   * add a build_depend and a run_depend tag for "dynamic_reconfigure"
+## * In this file (CMakeLists.txt):
+##   * add "dynamic_reconfigure" to
+##     find_package(catkin REQUIRED COMPONENTS ...)
+##   * uncomment the "generate_dynamic_reconfigure_options" section below
+##     and list every .cfg file to be processed
+
+## Generate dynamic reconfigure parameters in the 'cfg' folder
+# generate_dynamic_reconfigure_options(
+#   cfg/DynReconf1.cfg
+#   cfg/DynReconf2.cfg
+# )
 
 ###################################
 ## catkin specific configuration ##
@@ -76,10 +102,10 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  # INCLUDE_DIRS include
-  # LIBRARIES 
-  CATKIN_DEPENDS std_msgs geometry_msgs sensor_msgs message_runtime
-  #  DEPENDS system_lib
+#  INCLUDE_DIRS include
+ # LIBRARIES squirrel_2d_localizer_msgs
+ CATKIN_DEPENDS message_generation message_runtime std_msgs
+#  DEPENDS system_lib
 )
 
 ###########
@@ -88,22 +114,37 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-# include_directories(include)
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
 
-## Declare a cpp library
-# add_library(squirrel_rgbd_mapping_msgs
-#   src/${PROJECT_NAME}/squirrel_rgbd_mapping_msgs.cpp
+## Declare a C++ library
+# add_library(${PROJECT_NAME}
+#   src/${PROJECT_NAME}/squirrel_2d_localizer_msgs.cpp
 # )
 
-## Declare a cpp executable
-# add_executable(squirrel_rgbd_mapping_msgs_node src/squirrel_rgbd_mapping_msgs_node.cpp)
+## Add cmake target dependencies of the library
+## as an example, code may need to be generated before libraries
+## either from message generation or dynamic reconfigure
+# add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
-## Add cmake target dependencies of the executable/library
-## as an example, message headers may need to be generated before nodes
-# add_dependencies(squirrel_rgbd_mapping_msgs_node squirrel_rgbd_mapping_msgs_generate_messages_cpp)
+## Declare a C++ executable
+## With catkin_make all packages are built within a single CMake context
+## The recommended prefix ensures that target names across packages don't collide
+# add_executable(${PROJECT_NAME}_node src/squirrel_2d_localizer_msgs_node.cpp)
+
+## Rename C++ executable without prefix
+## The above recommended prefix causes long target names, the following renames the
+## target back to the shorter version for ease of user use
+## e.g. "rosrun someones_pkg node" instead of "rosrun someones_pkg someones_pkg_node"
+# set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX "")
+
+## Add cmake target dependencies of the executable
+## same as for the library above
+# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(squirrel_rgbd_mapping_msgs_node
+# target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -122,7 +163,7 @@ catkin_package(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS squirrel_rgbd_mapping_msgs squirrel_rgbd_mapping_msgs_node
+# install(TARGETS ${PROJECT_NAME} ${PROJECT_NAME}_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -147,7 +188,7 @@ catkin_package(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_squirrel_rgbd_mapping_msgs.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_squirrel_2d_localizer_msgs.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
