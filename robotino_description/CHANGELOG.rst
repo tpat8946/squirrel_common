@@ -2,8 +2,8 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.28 (2017-09-04)
+-------------------
 * some misalignment
 * aligned with squirrel-project
 * aligned with remote

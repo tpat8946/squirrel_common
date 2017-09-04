@@ -2,8 +2,8 @@
 Changelog for package squirrel_dynamic_filter_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.28 (2017-09-04)
+-------------------
 * added ayush part
 * Contributors: Federico Boniardi
 

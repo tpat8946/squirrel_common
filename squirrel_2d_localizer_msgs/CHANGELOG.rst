@@ -2,8 +2,8 @@
 Changelog for package squirrel_2d_localizer_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.28 (2017-09-04)
+-------------------
 * update changelog
 * update
 * missed catkin_package export
