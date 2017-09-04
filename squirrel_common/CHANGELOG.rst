@@ -2,6 +2,22 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.28 (2017-09-04)
+-------------------
+* Merge branch 'indigo_dev' of https://github.com/squirrel-project/squirrel_common into indigo_release_candidate
+  Conflicts:
+  squirrel_localizer_msgs/CHANGELOG.rst
+  squirrel_localizer_msgs/package.xml
+  squirrel_rgbd_mapping_msgs/CHANGELOG.rst
+  squirrel_rgbd_mapping_msgs/package.xml
+  squirrel_sketch_interface_msgs/CHANGELOG.rst
+  squirrel_sketch_interface_msgs/package.xml
+* updated metapackage
+* Contributors: Federico Boniardi, ipa-nhg
+
+0.0.27 (2017-06-28)
+-------------------
+
 0.0.24 (2017-02-20)
 -------------------
 * Merge pull request `#175 <https://github.com/squirrel-project/squirrel_common/issues/175>`_ from bajo/viewcontroller
