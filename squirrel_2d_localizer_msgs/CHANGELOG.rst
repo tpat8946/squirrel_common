@@ -4,6 +4,12 @@ Changelog for package squirrel_2d_localizer_msgs
 
 Forthcoming
 -----------
+* update changelog
+* update
+* missed catkin_package export
+* updates
+* Contributors: Federico Boniardi, buildbot-squirrel
+
 * update
 * missed catkin_package export
 * updates

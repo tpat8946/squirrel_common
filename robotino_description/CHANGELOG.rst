@@ -2,6 +2,20 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* some misalignment
+* aligned with squirrel-project
+* aligned with remote
+* add position interfaces
+* updates
+* updates
+* updated the collision model of the base
+* change frame_id for the odometry on simulation
+* update shell model to be compatible with the calibration software
+* added shell with kinematic
+* Contributors: Federico Boniardi, ipa-nhg
+
 0.0.27 (2017-06-28)
 -------------------
 

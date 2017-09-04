@@ -2,6 +2,15 @@
 Changelog for package squirrel_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added service
+* updates
+* updates
+* merge successful
+* removed useless stuff
+* Contributors: Federico Boniardi
+
 0.0.27 (2017-06-28)
 -------------------
 
