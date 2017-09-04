@@ -56,6 +56,8 @@ add_service_files(
   StopInstanceTracking.srv
   StartLumpTracking.srv
   StopLumpTracking.srv
+  StartRobotTracking.srv
+  StopRobotTracking.srv
 )
 
 add_action_files(
