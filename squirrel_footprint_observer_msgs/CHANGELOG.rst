@@ -2,6 +2,9 @@
 Changelog for package squirrel_footprint_observer_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.28 (2017-09-04)
 -------------------
 * merge successful

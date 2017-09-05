@@ -2,6 +2,9 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.28 (2017-09-04)
 -------------------
 * Merge branch 'indigo_dev' of https://github.com/squirrel-project/squirrel_common into indigo_release_candidate
