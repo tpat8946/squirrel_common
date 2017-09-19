@@ -22,6 +22,7 @@
     <axis xyz="1 0 0" />
     <limit upper="20" lower="-20" effort="190" velocity="30" />
    </joint>
+   <joints_transmission name="origin_joint" />
 
    <link name="${name}_link">
     <inertial>
@@ -126,7 +127,7 @@
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <odometryRate>20.0</odometryRate>
-      <robotBaseFrame>base_link</robotBaseFrame>
+      <robotBaseFrame>origin</robotBaseFrame>
     </plugin>
   </gazebo>
 
