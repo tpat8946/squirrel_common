@@ -121,6 +121,38 @@
       </collision>
     </link>
 
+    <joint name="door_joint" type="revolute">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="${parent}"/>
+      <child link="door_link" />      
+      <axis xyz="0 0 1" />
+      <calibration rising="0.1"/>
+      <limit effort="100" lower="0" upper="3.14" velocity="1.4"/>
+    </joint>
+
+   <link name="door_link">
+      <inertial>
+        <mass value="0.01"/>
+        <origin xyz="0 0 0"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/door.stl"/>
+        </geometry>
+        <material name="lightGrey">
+          <color rgba="0.9 0.9 0.9 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/door_collision.stl"/>
+        </geometry>
+      </collision>
+    </link>
+
   </xacro:macro>
 
 </root>
