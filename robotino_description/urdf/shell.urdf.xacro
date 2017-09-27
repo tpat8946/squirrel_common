@@ -40,9 +40,17 @@
       <material>Gazebo/LightGrey</material>
     </gazebo>
 
-    <joint name="neck_pan_joint" type="revolute">
+    <joint name="base_neck_joint" type="fixed">
       <origin xyz="0 0 0.676" rpy="0 0 0"/>
       <parent link="${parent}"/>
+      <child link="base_neck_link" />      
+    </joint>
+
+   <link name="base_neck_link"/>
+
+    <joint name="neck_pan_joint" type="revolute">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="base_neck_link"/>
       <child link="neck_pan_link" />      
       <axis xyz="0 0 1" />
       <calibration rising="0.1"/>
