@@ -32,7 +32,7 @@
       <parent link="${name}base_link"/>
       <child link="${name}link1"/>
       <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
-      <axis xyz="0 -1 0" />
+      <axis xyz="0 1 0" />
       <limit upper="1.5" lower="-1.2" effort="90" velocity="0.7" />
     </joint>
 
@@ -136,8 +136,8 @@
       <parent link="${name}link3"/>
       <child link="${name}link4"/>
       <origin xyz="0.0 -0.057 0.065" rpy="0 0 0" />
-      <limit upper="2.4" lower="-2.4" effort="90" velocity="0.7" />
       <axis xyz="0 1 0" />
+      <limit upper="2.4" lower="-2.4" effort="90" velocity="0.7" />
     </joint>
 
     <link name="${name}link4">
