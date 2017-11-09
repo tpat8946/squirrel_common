@@ -8,6 +8,9 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_service_files(
   FILES
+  FoldArm.srv
+  UnfoldArm.srv
+  SendControlCommand.srv
   PlanEndEffector.srv
   PlanPose.srv
 )
