@@ -1,3 +1,4 @@
+string frame_id
 float64[] positions
 bool check_octomap_collision
 bool check_self_collision
