@@ -2,6 +2,16 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.30 (2018-01-25)
+-------------------
+* Merge pull request `#241 <https://github.com/squirrel-project/squirrel_common/issues/241>`_ from squirrel-project/indigo_dev
+  update release
+* Update package.xml
+* Contributors: Nadia Hammoudeh García
+
+0.0.29 (2017-09-05)
+-------------------
+
 0.0.28 (2017-09-04)
 -------------------
 * Merge branch 'indigo_dev' of https://github.com/squirrel-project/squirrel_common into indigo_release_candidate
