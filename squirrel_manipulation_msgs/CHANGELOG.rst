@@ -2,8 +2,8 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.30 (2018-01-25)
+-------------------
 * Changed joint type to double from float
 * Redefined manipulation action. Added frame id for motion planner service.
 * Contributors: Tim Patten

@@ -2,8 +2,8 @@
 Changelog for package squirrel_motion_planner_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.30 (2018-01-25)
+-------------------
 * unify versions
 * update changelog
 * Redefined manipulation action. Added frame id for motion planner service.

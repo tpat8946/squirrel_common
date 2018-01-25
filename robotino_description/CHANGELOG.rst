@@ -2,8 +2,8 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.30 (2018-01-25)
+-------------------
 * revert motor directions
 * joint directions review
 * Merge branch 'indigo_dev' into ArmReview
