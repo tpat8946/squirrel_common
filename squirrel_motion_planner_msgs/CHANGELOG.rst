@@ -4,6 +4,13 @@ Changelog for package squirrel_motion_planner_msgs
 
 Forthcoming
 -----------
+* unify versions
+* update changelog
+* Redefined manipulation action. Added frame id for motion planner service.
+* updated squirrel_motion_planner_msgs
+* added service files for the 8dof planner
+* Contributors: Tim Patten, ipa-nhg, philkark
+
 * Redefined manipulation action. Added frame id for motion planner service.
 * updated squirrel_motion_planner_msgs
 * added service files for the 8dof planner

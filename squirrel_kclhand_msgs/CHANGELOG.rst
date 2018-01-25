@@ -2,6 +2,9 @@
 Changelog for package squirrel_kclhand_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.29 (2017-09-05)
 -------------------
 
