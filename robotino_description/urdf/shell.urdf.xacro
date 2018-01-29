@@ -3,7 +3,7 @@
 
   <xacro:include filename="$(find robotino_description)/urdf/kinect.urdf.xacro" />
 
-  <xacro:macro name="shell" params="name base_neck_x base_neck_y base_neck_z base_neck_roll base_neck_pitch base_neck_yaw parent *origin">
+  <xacro:macro name="shell" params="name base_neck_x base_neck_y base_neck_z base_neck_roll base_neck_pitch base_neck_yaw parent *origin real">
       
     <joint name="${name}_base_joint" type="fixed">
       <parent link="${parent}"/>
@@ -34,6 +34,7 @@
       </collision>
     </link>
     
+  <xacro:if value="${real}">
     <joint name="${name}_base_joint_front" type="fixed">
       <parent link="${name}_base_link"/>
       <child link="${name}_base_link_front" />
@@ -48,6 +49,7 @@
         </geometry>
       </collision>
     </link>
+  </xacro:if>
 
     <gazebo reference="${name}_base_link">
       <gravity>true</gravity>
