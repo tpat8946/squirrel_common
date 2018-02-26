@@ -2,8 +2,8 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.31 (2018-02-26)
+-------------------
 * add argument for simulation vs real robot
 * add front shell collision
 * Contributors: ipa-nhg

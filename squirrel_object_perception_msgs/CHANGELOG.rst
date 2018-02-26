@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.31 (2018-02-26)
+-------------------
 * Update CMakeLists.txt
 * merged LookForObjects action and RecognizeObjects action into one
 * Contributors: Edith Langer, Tim Patten
