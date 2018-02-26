@@ -2,6 +2,9 @@
 Changelog for package squirrel_2d_localizer_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.30 (2018-01-25)
 -------------------
 

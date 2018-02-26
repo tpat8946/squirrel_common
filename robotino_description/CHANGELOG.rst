@@ -2,6 +2,12 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add argument for simulation vs real robot
+* add front shell collision
+* Contributors: ipa-nhg
+
 0.0.30 (2018-01-25)
 -------------------
 * revert motor directions
