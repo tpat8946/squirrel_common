@@ -2,8 +2,8 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.32 (2018-02-27)
+-------------------
 * update metapackage
 * Contributors: ipa-nhg
 

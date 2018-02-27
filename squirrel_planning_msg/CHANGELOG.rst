@@ -2,8 +2,8 @@
 Changelog for package squirrel_planning_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.32 (2018-02-27)
+-------------------
 * unify version tags
 * update changelog
 * review dependencies
