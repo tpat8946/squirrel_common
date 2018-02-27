@@ -6,7 +6,7 @@ uint8 SEGMENTATION = 1
 uint8 RECOGNITION = 2
 
 uint8 check_type	#0: octomap differencing, 1: popout segmentation, 2: recognition
-SceneObject object	#contains information of the grasped object (pose, size, category, ...)
+SceneObject object	#contains information of the grasped object (pose (is obligatory!), size, category, ...)
 
 ---
 
