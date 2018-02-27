@@ -2,6 +2,9 @@
 Changelog for package squirrel_speech_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.31 (2018-02-26)
 -------------------
 

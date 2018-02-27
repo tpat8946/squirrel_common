@@ -4,6 +4,12 @@ Changelog for package squirrel_planning_msgs
 
 Forthcoming
 -----------
+* unify version tags
+* update changelog
+* review dependencies
+* Planning specific messages to call services.
+* Contributors: Bram Ridder, ipa-nhg
+
 * review dependencies
 * Planning specific messages to call services.
 * Contributors: Bram Ridder, ipa-nhg
