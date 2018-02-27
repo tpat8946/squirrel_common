@@ -1,0 +1,13 @@
+# Check visually if a grasp attempt was successful 
+# author: Edith Langer, langer@acin.tuwien.ac.at
+
+uint8 OCTOMAP = 0
+uint8 SEGMENTATION = 1
+uint8 RECOGNITION = 2
+
+uint8 check_type	#0: octomap differencing, 1: popout segmentation, 2: recognition
+SceneObject object	#contains information of the grasped object (pose, size, category, ...)
+
+---
+
+bool success	#true if the object can not be seen anymore at the position it was before

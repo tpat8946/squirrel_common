@@ -2,7 +2,7 @@
 # author: Edith Langer, langer@acin.tuwien.ac.at
 
 # goal definition
-geometry_msgs/PoseArray waypointPoses
+geometry_msgs/PoseArray waypointPoses	#in map frame
 bool return_after_first_lump
 ---
 # result definition

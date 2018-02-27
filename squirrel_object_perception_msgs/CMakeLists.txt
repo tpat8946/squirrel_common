@@ -28,6 +28,7 @@ add_message_files(
 add_service_files(
   FILES
   ActiveExplorationNBV.srv
+  CheckGraspSuccess.srv
   CheckWaypoint.srv
   Classify.srv
   CoveragePlan.srv
