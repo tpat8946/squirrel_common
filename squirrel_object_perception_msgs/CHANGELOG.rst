@@ -2,8 +2,8 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.33 (2018-03-08)
+-------------------
 * added description to CheckGraspSuccess service definition
 * added description to CheckGraspSuccess service definition
 * added CheckGraspSuccess service, added additional field to FindDynamicObjects.srv for DB usage
