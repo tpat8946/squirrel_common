@@ -2,6 +2,9 @@
 Changelog for package softhand_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.32 (2018-02-27)
 -------------------
 

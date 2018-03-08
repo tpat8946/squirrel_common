@@ -2,6 +2,9 @@
 Changelog for package squirrel_view_controller_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.32 (2018-02-27)
 -------------------
 
