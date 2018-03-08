@@ -1,12 +1,21 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package squirrel_kclhand_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package squirrel_planning_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.0.33 (2018-03-08)
 -------------------
 
 0.0.32 (2018-02-27)
 -------------------
+* unify version tags
+* update changelog
+* review dependencies
+* Planning specific messages to call services.
+* Contributors: Bram Ridder, ipa-nhg
+
+* review dependencies
+* Planning specific messages to call services.
+* Contributors: Bram Ridder, ipa-nhg
 
 0.0.31 (2018-02-26)
 -------------------
@@ -23,6 +32,12 @@ Changelog for package squirrel_kclhand_msgs
 0.0.27 (2017-06-28)
 -------------------
 
+0.0.26 (2017-06-27)
+-------------------
+
+0.0.25 (2017-03-16)
+-------------------
+
 0.0.24 (2017-02-20)
 -------------------
 
@@ -37,10 +52,6 @@ Changelog for package squirrel_kclhand_msgs
 
 0.0.20 (2016-09-07)
 -------------------
-* Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc
-  package restructuration and clean up
-* package restructuration
-* Contributors: ipa-nhg, ipa-rmb
 
 0.0.19 (2016-07-11)
 -------------------
@@ -56,13 +67,6 @@ Changelog for package squirrel_kclhand_msgs
 
 0.0.15 (2016-04-10)
 -------------------
-* manual merge resolution
-* 0.0.4
-* update
-* 0.0.3
-* updated version
-* add CHANGELOG.rst
-* Contributors: Philipp Zech, buildbot-squirrel
 
 0.0.14 (2016-04-06)
 -------------------
@@ -73,11 +77,11 @@ Changelog for package squirrel_kclhand_msgs
 0.0.12 (2016-02-24)
 -------------------
 
-0.0.11 (2016-02-22)
--------------------
+0.0.11 (2016-02-22 15:45)
+-------------------------
 
-0.0.10 (2016-02-22)
--------------------
+0.0.10 (2016-02-22 09:51)
+-------------------------
 
 0.0.9 (2016-02-17)
 ------------------
@@ -91,20 +95,17 @@ Changelog for package squirrel_kclhand_msgs
 0.0.6 (2016-02-01)
 ------------------
 
-0.0.4 (2016-01-13)
-------------------
+0.0.5 (2016-01-20 17:53)
+------------------------
 
-0.0.3 (2016-01-13)
-------------------
+0.0.4 (2016-01-20 17:26:08 +0100)
+---------------------------------
+
+0.0.3 (2016-01-20 17:26:08 +0100)
+---------------------------------
 
 0.0.2 (2016-01-13)
 ------------------
 
 0.0.1 (2015-12-16)
 ------------------
-* Delete SetMaxJointVelocity.action~
-* Delete Joints.msg~
-* Delete package.xml~
-* Delete CMakeLists.txt~
-* add squirrel_kclhand_msgs for the robotic hand
-* Contributors: Jie Sun

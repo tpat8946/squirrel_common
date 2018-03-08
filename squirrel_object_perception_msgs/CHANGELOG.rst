@@ -2,6 +2,17 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.33 (2018-03-08)
+-------------------
+* added description to CheckGraspSuccess service definition
+* added description to CheckGraspSuccess service definition
+* added CheckGraspSuccess service, added additional field to FindDynamicObjects.srv for DB usage
+* added new action FindLumps
+* Contributors: Edith Langer
+
+0.0.32 (2018-02-27)
+-------------------
+
 0.0.31 (2018-02-26)
 -------------------
 * Update CMakeLists.txt
