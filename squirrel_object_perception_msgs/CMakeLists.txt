@@ -33,6 +33,7 @@ add_service_files(
   Classify.srv
   CoveragePlan.srv
   CoveragePlanFile.srv
+  CreateOctomapWithLumps.srv
   EntropyMap.srv
   EntropyMapViz.srv
   FindDynamicObjects.srv
@@ -43,6 +44,7 @@ add_service_files(
   GetSaliencyLocation.srv
   GetSaliencySurfaceOrientation.srv
   GetSaliencySymmetry.srv
+  ReceiveOctomapWithLumps.srv
   Recognize.srv
   Recognize2d.srv
   Segment.srv

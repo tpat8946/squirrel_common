@@ -1,0 +1,5 @@
+# Fuses lumps into the static octomap
+# author: Edith Langer langer@acin.tuwien.ac.at
+
+squirrel_object_perception_msgs/SceneObject[] lumps
+---
