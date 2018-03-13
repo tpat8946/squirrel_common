@@ -1,0 +1,5 @@
+# Returns the static octomap including lumps created with CreateOctomapWithLumps.srv
+# author: Edith Langer langer@acin.tuwien.ac.at
+
+---
+octomap_msgs/Octomap fusedOctomap
