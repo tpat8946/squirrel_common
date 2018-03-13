@@ -116,6 +116,10 @@
       <geometry>
        <mesh filename="package://robotino_description/meshes/RobotinoBody.stl"/>
       </geometry>
+      <!--origin xyz="0.01 0 0.1" rpy="0 0 0"/>
+      <geometry>
+       <cylinder length="0.2" radius="0.2"/>
+      </geometry-->
     </collision>
    </link>
 
