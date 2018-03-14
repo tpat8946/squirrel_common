@@ -44,7 +44,6 @@ add_service_files(
   GetSaliencyLocation.srv
   GetSaliencySurfaceOrientation.srv
   GetSaliencySymmetry.srv
-  ReceiveOctomapWithLumps.srv
   Recognize.srv
   Recognize2d.srv
   Segment.srv
