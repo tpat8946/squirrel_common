@@ -46,7 +46,7 @@
         <!--origin xyz="-0.02 0 0.085" rpy="0 0 0"/-->
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://robotino_description/meshes/base_shell_front_collision.stl"/>
+          <mesh filename="package://robotino_description/meshes/base_shell_front_collision.stl" scale="1.1 1 1"/>
           <!--box size="0.55 0.55 0.17"/-->
         </geometry>
       </collision>
