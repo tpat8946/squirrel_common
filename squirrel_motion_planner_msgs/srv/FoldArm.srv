@@ -9,3 +9,4 @@ int32 COLLISION_FOLDING=3
 int32 ERROR_8DOF_PLANNING=4
 
 int32 result
+trajectory_msgs/JointTrajectory trajectory

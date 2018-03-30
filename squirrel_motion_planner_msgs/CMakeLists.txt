@@ -4,6 +4,7 @@ project(squirrel_motion_planner_msgs)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
+  trajectory_msgs
 )
 
 add_service_files(
@@ -18,8 +19,9 @@ add_service_files(
 generate_messages(
    DEPENDENCIES
    std_msgs
+   trajectory_msgs
  )
 
 catkin_package(
-  CATKIN_DEPENDS message_runtime std_msgs 
+  CATKIN_DEPENDS message_runtime std_msgs trajectory_msgs
 )

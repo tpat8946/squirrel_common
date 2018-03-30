@@ -17,3 +17,4 @@ int32 ERROR_2DOF_PLANNING=6
 int32 ERROR_8DOF_PLANNING=7
 
 int32 result
+trajectory_msgs/JointTrajectory trajectory

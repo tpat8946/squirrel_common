@@ -8,3 +8,4 @@ int32 ARM_NOT_FOLDED=2
 int32 COLLISION_UNFOLDING=3
 
 int32 result
+trajectory_msgs/JointTrajectory trajectory
